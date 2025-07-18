@@ -1,6 +1,6 @@
-# Powershell Mouse Jiggle Script  
+# Powershell Mouse Jiggle Script  <br/>
 
-New-Item -ItemType File -Path $PROFILE -Force  
-notepad $PROFILE 
-""" INSERT SCRIPT """  
-. $PROFIL  
+New-Item -ItemType File -Path $PROFILE -Force  <br/>
+notepad $PROFILE <br/>
+""" INSERT SCRIPT """  <br/>
+. $PROFIL  <br/>
