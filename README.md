@@ -3,4 +3,4 @@
 New-Item -ItemType File -Path $PROFILE -Force  <br/>
 notepad $PROFILE <br/>
 """ INSERT SCRIPT """  <br/>
-. $PROFIL  <br/>
+. $PROFILE <br/>
