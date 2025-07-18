@@ -1,9 +1,9 @@
 # Powershell Mouse Jiggle Script
-
-
-New-Item -ItemType File -Path $PROFILE -Force
-notepad $PROFILE
- 
+\n
+New-Item -ItemType File -Path $PROFILE -Force \n
+notepad $PROFILE \n
+\n
+""" 
 function Start-Jig {
     Add-Type -AssemblyName System.Windows.Forms
     $idleTime = [TimeSpan]::FromMinutes(1)
@@ -34,5 +34,6 @@ function Start-Jig {
     }
 }
 Set-Alias jig Start-Jig
- 
+ """
+
 . $PROFIL
